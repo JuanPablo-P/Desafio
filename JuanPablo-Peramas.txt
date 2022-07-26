@@ -1,0 +1,34 @@
+ public class Usuario
+    {
+        public string id;
+        private string nombre;
+        private string apellido;
+        private string nombreUsuario;
+        private string password;
+        private string mail;
+    }
+
+    public class Producto
+    {
+        private string id;
+        private string descripcion;
+        private string costo;
+        private string precioVenta;
+        private int stock;
+        private string idUsuario;
+
+    }
+    public class ProductoVendido
+    {
+        private string id;
+        private string idProducto;
+        private int stock;
+        private string idVenta;
+
+    }
+    public class Venta
+    {
+        private string id;
+        private string comentario;
+
+    }
